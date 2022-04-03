@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <div>
+      <h2>Race Registration</h2>
+    <form action="">
+        <label for="isim">adınız</label>
+        <input type="text" placeholder="Adınız"id="adınız" />
+        <label for="Şifreniz">Soyadınız</label>
+        <input type="password" placeholder="Soyadınız"id="Soyadınız"/><br><br/>
+        <h2>Select a Race:</h2>
+        <input type="radio" name="Yaş" id="Xs">
+        <label for="Xs">Run Run 5k</label>
+        <br><br/>
+        <input type="radio" name="Yaş" id="Xs1" value="Xs1">
+        <label for="Xs1">Half Marathon</label>
+        <br><br/>
+        <input type="radio" name="Yaş" id="Xs2" value="Xs2">
+        <label for="Xs2">Full Marathon</label>
+        <br><br/>
+        <label for="isim">Kullanıcı adı</label>
+        <div><input type="text"  placeholder="kullanıcı_adı" required minlength="5" maxlength="10" />
+        <label for="isim">Şifre</label>
+        <input type="Şifre" name="" placeholder="Şifre" minlength="3"  maxlength="5" required />
+        </div>
+            <label for="Select_Age_Group">Select Age Group </label>
+            <select name="Under18" id="Select_Age_Group">
+                <option value="Under18">Under18</option>
+                <option value="Under19">Under19</option>
+                <option value="Under20">Under20</option>
+            </select>
+        <div>
+        <button>Register!</button>
+        </div>
+    </form>
+  </div>  
+</body>
+</html>

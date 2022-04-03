@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Örnekleri</title>
+</head>
+    <body>
+     <h1>Formm Demo</h1>
+        <form action="/pizza"> 
+        <label for="isim">Kullanıcı adı</label>
+         <input type="text" placeholder="Kullanıcı adı"id="isim" /><br><br/>
+         <label for="Şifreniz">Şifreniz</label>
+         <input type="password" placeholder="şifreniz"id="Şifreniz"/><br><br/>
+         <label for="Email giriniz">email</label>
+         <input type="email" placeholder="Email Giriniz"id="Email giriniz"/><br><br/>
+         <label for="color">Renk giriniz</label>
+         <input type="color" id="color"/><br><br />
+         <label for="number">Sayı giriniz</label>
+         <input type="number" placeholder="Sayı giriniz" id="number"/><br><br/>
+         <button type="button">Gönder</button>
+         <button>Submit</button>
+         <hr>
+        </form>
+         <form action="https://www.google.com/search">
+             <input type="text" name="q" id="" placeholder="Search Chrome">
+             <button>Searce Google</button><br><br/>
+         </form>
+         <form action="https://www.youtube.com/results" target="_blank">
+            <input type="text" name="search_query" id="" placeholder="Search Chrome">
+            <button>Searce Youtube</button><br><br/>
+        </form>
+        <form action="/birds">
+            <label for="agree">Kabul ediyorum</label>
+            <input type="checkbox"name="agree" id="agree" checked /><br>
+            <br/>
+            <label for="onay">Onaylıyorum</label>
+            <input type="checkbox"name="onay" id="onay" />
+            <button>Gönder</button>
+        </form>
+        <form action="/kuşlar"></form>
+         <label for="birds">Martı</label>
+         <input type="radio" name="birds" id="birds" value="Martı">
+         <label for="birds2">Kartal</label>
+         <input type="radio" name="birds" id="birds2" value="Kartal">
+         <label for="birds3">Karga</label>
+         <input type="radio" name="birds" id="birds3" value="Karga">
+         <button>Yolla</button>
+         </form>
+    <hr>
+    <form action="">
+            <Label for="Kabul">Onaylıyorum</Label>
+            <input type="Checkbox" id="Kabul" name="Boyut" /> <br />
+            <label for="Xs">Xs</label>
+            <input type="radio" name="Beden" id="onay" value="Xs">
+            <label for="Xs">M</label>
+            <input type="radio" name="Beden" id="onay" value="M">
+            <label for="Xs">L</label>
+            <input type="radio" name="Beden" id="onay" value="L">
+    <br>
+    <button>Summit</button>
+    </form>
+<hr>
+<!-- Açılabilir menü -->
+    <form action="Hayvanlar">
+        <label for="Hayvan">Hayvanlar </label> <br />
+        <select name="pets" id="Hayvan">
+            <option value="">Hayvanlarınızı seçiniz</option>
+            <option value="Aslan">Aslan</option>
+            <option value="balık">Balık</option>
+            <option value="bird">Kuş</option>
+        </select>
+        <button>Submit</button>   
+    </form>   
+    <hr>
+    <!-- bitiş -->
+    <form action="">
+        <label for="range">Evdeki peynir miktarı</label>
+        <input type="range" name="peynir" id="range" min="10" max="120" step="=20" value="" />
+        <button>Yolla</button>
+    </form>
+    <hr>
+    <!-- metin başlangıç -->
+    <form action="/isim">
+        <label for="metin">Mesajınız</label><br><br/>
+        <textarea name="metin" id="metin" cols="20" rows="10">Buraya metin giriniz</textarea>
+        <input type="submit" />
+    </form>
+    <!-- metin bitiş -->
+    <hr>
+    <!-- Form dogrulama -->
+    <form action="">
+        <input type="text"  placeholder="kullanıcı adı" required minlength="5" maxlength="10" />
+        <input type="password" name="" placeholder="password" minlength="3"  maxlength="5" required />
+        <button>Yolla</button>
+    </form>
+    </body>
+</html>
